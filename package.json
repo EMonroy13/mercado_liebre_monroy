@@ -1,0 +1,26 @@
+{
+  "name": "mercado_libre_monroy",
+  "version": "1.0.0",
+  "description": "Mercado Liebre will be living here",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EMonroy13/mercado_libre_monroy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EMonroy13/mercado_libre_monroy/issues"
+  },
+  "homepage": "https://github.com/EMonroy13/mercado_libre_monroy#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
