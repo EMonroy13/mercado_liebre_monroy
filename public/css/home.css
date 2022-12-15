@@ -30,21 +30,22 @@ header {
 }
 .barra-busqueda {
     background-color: #ffffff;
-    width: 45%;
+    width: 90%;
     align-self: center;
     display: flex;
-    border-radius: 4px;
+    border-radius: 40px;
     border: none;
 }
 .barra-busqueda form {
     width: 100%;
+    height: auto;
     display: flex;
     align-items: center;
     margin: 0.5rem;
-
 }
 .campo-busqueda {
     width: 100%;
+    height: auto;
     display: inline;
 }
 .campo-busqueda input {
@@ -81,7 +82,7 @@ a {
     padding-top: 3px;
     text-align: center;
     color: white;
-    background-color: var(--Celeste)
+    background-color: var(--Azul)
 }
 
 .icon-cuotas {
@@ -103,8 +104,7 @@ h4 {
 nav {
     display: none; 
 }
-.izquierda,
-.derecha {
+.izquierda, .derecha {
     width: 40%;
 }
 /* --------------  BODY  -------------------- */
@@ -140,6 +140,7 @@ h3 {
     color: #39b54a;
     border: 1px solid #39b54a;
     border-radius: 50%;
+    transition: 0.3s color linear, 0.5s transform linear;
 }
 .productos {
     margin: 10px;
@@ -173,7 +174,13 @@ h3 {
 img {
     max-width: 100%;
     vertical-align: top;
-    border-bottom: solid 1px #ebebeb;
+    position: relative;
+}
+.main img {
+    max-width: 100%;
+    vertical-align: top;
+    position: relative;
+    border-bottom: #03264C;
 }
 .titular {
     font-size: 24px;
@@ -204,7 +211,7 @@ footer {
     padding-bottom: 0.625rem;
 }
 .footer-section .fas:hover {
-    color: var(--Celeste);
+    color: #6A5ACD;
 }
 .footer-section h2 {
     font-size: 16px
@@ -276,5 +283,10 @@ footer {
     .barra-busqueda {
         width: 30%;
     }
+
+    .productos:hover .camionsito {
+        color: var(--Verde);
+        transform: translateX(24rem) rotate(360deg);
+      }
 
 }

@@ -29,7 +29,6 @@
     padding-left: 0.75rem;
     width: 100%;
     background-color: #ffffff;
-    border-radius: 4px;   
 }
 .campo input{
     width: 100%;
@@ -46,7 +45,8 @@
 }
 .entrar:hover button{
     background-color: var(--Verde);
-    color: white;
+    color: var(--Azul);
+    font-weight: bold;
     cursor: pointer;
     border: solid 1px var(--Verde);
     transition-duration: 400ms;
