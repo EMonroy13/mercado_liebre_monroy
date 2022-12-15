@@ -7,6 +7,11 @@
     --Gris_claro: #ebebeb;
     --Verde: #39b54a;
 }
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 body {
     background-color: var(#fff);
 }
@@ -88,27 +93,27 @@ h2 {
 .boton-borrar-todo button {
     color: #fff;
     background:var(--Azul);
-    border: none;
+    border-radius: 10%;
     width: 100px;
     height: 50px;
 }
 .boton-registrarse button{
     background:var(--Azul);
     color: #fff;
-    border: none;
+    border-radius: 10%;
     width: 100px;
     height: 50px;
 }
 .boton-registrarse:hover button{
-    background-color: var(--Gris_claro);
-    color: black;
+    background-color: var(--Verde);
+    color: white;
     cursor: pointer;
-    border: solid 1px black;
+    border: solid 1px var(--Verde);
     transition-duration: 400ms;
 }
 .boton-borrar-todo:hover button{
-    background-color: var(--Gris_claro);
-    color: black;
-    border: solid 1px black;
+    background-color: #FA8072;
+    color: white;
+    border: solid 1px #FA8072;
     transition-duration: 400ms;
 }

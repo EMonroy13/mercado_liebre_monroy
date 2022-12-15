@@ -7,6 +7,11 @@
     --Gris_claro: #ebebeb;
     --Verde: #39b54a;
 }
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 .main{
     background-color: #ebebeb;
     display: flex;
@@ -40,10 +45,10 @@
     color: #ffffff;  
 }
 .entrar:hover button{
-    background-color: var(--Gris_claro);
-    color: black;
+    background-color: var(--Verde);
+    color: white;
     cursor: pointer;
-    border: solid 1px black;
+    border: solid 1px var(--Verde);
     transition-duration: 400ms;
 }
 input{
