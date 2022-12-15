@@ -5,9 +5,13 @@ const app = express();
 const path = require("path");
 app.use(express.static("public"));
 
-app.listen(3000, () => {
+/* Using render now */
+const port = process.env.PORT || 3001;
+app.listen(port, () => 
+    console.log(`Servidor corriendo en el puerto ${port}`));
+/* app.listen(3000, () => {
     console.log("Servidor corriendo en http://localhost:3000")
-});
+}); */
 
 /* Home path */
 app.get("/", (req, res) => {
